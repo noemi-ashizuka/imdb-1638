@@ -1,0 +1,24 @@
+data for #fetch_movies_urls
+
+[
+  "https://www.imdb.com/title/tt0111161/",
+  "https://www.imdb.com/title/tt0068646/",
+  "https://www.imdb.com/title/tt0468569/",
+  "https://www.imdb.com/title/tt0071562/",
+  "https://www.imdb.com/title/tt0050083/"
+]
+
+data for #scrape_movie
+
+{
+  cast: ["Tim Robbins", "Morgan Freeman", "Bob Gunton"],
+  director: "Frank Darabont",
+  storyline: "Over the course of several years, two convicts form a friendship, seeking consolation and, eventually, redemption through basic compassion.",
+  title: "The Shawshank Redemption",
+  year: 1994,
+  rating: 9.39
+}
+
+
+
+(url, 'Accept-Language' => 'en', "User-Agent" => "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:89.0) Gecko/20100101 Firefox/89.0")
